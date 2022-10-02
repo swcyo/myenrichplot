@@ -1,5 +1,5 @@
 
-# myenrichplot 1.1.21.3
+# myenrichplot 1.21.3
 
 + 修改了gseaplot的配色，添加p值
 + 修改了gseaplot()的配色，添加NES,p值和q值
