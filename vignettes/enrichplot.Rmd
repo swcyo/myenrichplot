@@ -1,0 +1,22 @@
+---
+title: "Modified Visualization of Functional Enrichment Result from enrichplot"
+author: "\\
+
+	Song Ou-Yang\\
+
+        School of Medicine, Shehezi University"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    toc: true
+    theme: cayman
+    highlight: github
+  pdf_document:
+    toc: true
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{myenrichplot}
+  %\usepackage[utf8]{inputenc}
+---
+
+Please go to <https://yulab-smu.github.io/clusterProfiler-book/> for the full vignette.

@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+Makefile
+^CONDUCT\.md$
+README.Rmd
+README.md
+TODO.md

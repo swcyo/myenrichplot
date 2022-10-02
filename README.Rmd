@@ -1,0 +1,81 @@
+---
+output:
+  md_document:
+    variant: gfm
+html_preview: false
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
+#  `r ypages:::packageTitle('enrichplot', 'BioC')`
+
+```{r echo=FALSE, results="hide", message=FALSE}
+library("badger")
+library("ypages")
+```
+
+
+
+`r badge_bioc_release("enrichplot", "green")`
+`r badge_devel("guangchuangyu/enrichplot", "green")`
+[![Bioc](http://www.bioconductor.org/shields/years-in-bioc/enrichplot.svg)](https://www.bioconductor.org/packages/devel/bioc/html/enrichplot.html#since)
+
+`r badge_download_bioc("enrichplot")`
+`r badge_bioc_download("enrichplot", "total", "blue")`
+`r badge_bioc_download("enrichplot", "month", "blue")`
+
+
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![platform](http://www.bioconductor.org/shields/availability/devel/enrichplot.svg)](https://www.bioconductor.org/packages/devel/bioc/html/enrichplot.html#archives)
+[![Build Status](http://www.bioconductor.org/shields/build/devel/bioc/treeio.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/treeio/)
+[![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-green.svg)](https://github.com/GuangchuangYu/treeio/commits/master)
+
+
+```{r comment="", echo=FALSE, results='asis'}
+cat(packageDescription('enrichplot')$Description)
+```
+
+
+For details, please visit <https://yulab-smu.top/biomedical-knowledge-mining-book/>.
+
+
+## :writing_hand: Authors
+
+
+Guangchuang YU <https://guangchuangyu.github.io>
+
+
+School of Basic Medical Sciences, Southern Medical University
+
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?hashtags=enrichplot)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
+`r badger::badge_custom('follow me on', 'WeChat', 'green', 'https://guangchuangyu.github.io/blog_images/biobabble.jpg')`
+
+
+## :arrow_double_down: Installation
+
+
+Get the released version from Bioconductor:
+
+```r
+## try http:// if https:// URLs are not supported
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+## BiocManager::install("BiocUpgrade") ## you may need this
+BiocManager::install("enrichplot")
+```
+
+Or the development version from github:
+
+```r
+## install.packages("devtools")
+devtools::install_github("YuLab-SMU/enrichplot")
+```
+
+
+## :sparkling_heart: Contributing
+
+We welcome any contributions! By participating in this project you agree to
+abide by the terms outlined in the [Contributor Code of Conduct](CONDUCT.md).
+

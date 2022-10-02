@@ -1,0 +1,66 @@
+Package: myenrichplot
+Title: Modified Visualization of Functional Enrichment Result from enrichplot
+Version: 1.21.3
+Authors@R: c(
+    person(given = "Song", family = "Ou-Yang", email = "ouyangsong@shzu.edu.cn",   role  = c("aut", "cre"), comment = c(ORCID = "0000-0001-7962-2811")))
+Description: The 'myenrichplot' package implements several visualization methods for interpreting functional enrichment results obtained from ORA or GSEA analysis. It is mainly designed to work with the 'clusterProfiler' package suite. All the visualization methods are developed based on 'ggplot2' graphics.
+Depends: R (>= 3.5.0)
+Imports:
+    aplot (>= 0.1.4),
+    DOSE (>= 3.16.0),
+    ggplot2,
+    ggraph,
+    graphics,
+    grid,
+    igraph,
+    methods,
+    plyr,
+    purrr,
+    RColorBrewer,
+    reshape2,
+    rlang,
+    stats,
+    utils,
+    scatterpie,
+    shadowtext,
+    GOSemSim,
+    magrittr,
+    ggtree,
+    ggfun,
+    yulab.utils (>= 0.0.4)
+Suggests:
+    clusterProfiler,
+    dplyr,
+    europepmc,
+    ggupset,
+    knitr,
+    rmarkdown,
+    org.Hs.eg.db,
+    prettydoc,
+    tibble,
+    tidyr,
+    ggforce,
+    AnnotationDbi,
+    ggplotify,
+    ggridges,
+    grDevices,
+    gridExtra,
+    ggnewscale,
+    ggrepel (>= 0.9.0),
+    ggstar,
+    treeio,
+    scales,
+    tidytree,
+    ggtreeExtra,
+    tidydr,
+    ggfun
+Remotes: 
+    YuLab-SMU/tidydr
+VignetteBuilder: knitr
+License: Artistic-2.0
+URL: https://swcyo.rbind.io/
+BugReports: https://gitee.com/swcyo/myenrichplot/issues
+biocViews: Annotation, GeneSetEnrichment, GO, KEGG,
+    Pathways, Software, Visualization
+Encoding: UTF-8
+RoxygenNote: 7.2.1
